@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light shadow-lg">
+    <div class="container-fluid px-5 text-center">
+        <a href="#" class="navbar-brand">
+            <img height="50px" loading="lazy" src="Pictures/graphics/My-Macrame-logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Moja Pasja</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Rękodzieła</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#"
+                       id="navbar2"
+                       class="nav-link dropdown-toggle"
+                       role="button"
+                       data-toggle="dropdown">Social Media
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbar2">
+                        <li>
+                            <a href="#" class="dropdown-item">Instagram
+                                <img height="40" src="Pictures/fonts/instagram-custom.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">Facebook
+                                <img height="40" src="Pictures/fonts/facebook-square-blue.svg">
+                            </a>
+                        </li>
+                        <li>
+                        <li><hr class="dropdown-divider"></li>
+                            <a href="#" class="dropdown-item text-center">Tik Tok
+                                <img height="40" src="Pictures/fonts/cib-tiktok.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!--   bg-light bg-opacity-10-->
+</nav>
+<div class="container">  <!------      Powitanie na stronie      ------>
+    <div class="welcome-card d-flex justify-content-center justify-content-md-start">
+        <div class="card border-0 bg-transparent pt-lg-5 pt-1">
+            <img class="card-img-top" src="Pictures/graphics/My-Macrame-logo.png">
+            <div class="card-body text-center">
+                <h4>Witajcie na stronie My Macrame</h4>
+                <h5 class="pt-3 ">Krótki opis strony, Krótki opis strony, Krótki opis strony, Krótki opis strony, Krótki opis strony, Krótki opis strony, Krótki opis strony, Krótki opis strony </h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">         <!--------     Kafelki       -------->
+    <div class="row mt-5">
+        <div class="col-sm-12 col-md-6">
+            <div class="card text-center">
+                <h6 class="mb-0">tytuł obrazka 1</h6>
+                <img src="Pictures/graphics/macrame2.jpg">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Przykładowy Tytuł 1</h5>
+                    <p class="card-text">Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst,Przykładowy tekst, Przykładowy tekst</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-12 col-md-6 order-last order-md-first">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Przykładowy Tytuł 2</h5>
+                    <p class="card-text">Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst,Przykładowy tekst, Przykładowy tekst,</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 order-first order-md-last">
+            <div class="card text-center">
+                <h6 class="mb-0">tytuł obrazka 2</h6>
+                <img class="card-img-top" src="Pictures/graphics/macrame2.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-12 col-md-6">
+            <div class="card text-center">
+                <h6 class="mb-0">tytuł obrazka 3</h6>
+                <img class="card-img-top" src="Pictures/graphics/macrame2.jpg">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Przykładowy Tytuł 3</h5>
+                    <p class="card-text">Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst, Przykładowy tekst,
+                        Przykładowy tekst, Przykładowy tekst,Przykładowy tekst, Przykładowy tekst</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 text-center">      <!------      Rękodzieła      ------>
+    <div class="row mt-3">
+        <div class="col-12 bg-light">
+            <h3> Tytuł opisu działu</h3>
+            <p>Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu,
+                Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu,
+                Opis działu, Opis działu, Opis działu, Opis działu</p>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="Pictures/graphics/product.jpg">
+                <h5 class="card-title">Produkt #1</h5>
+                <h5 class="card-text">79,99 zł
+                    <span class="text-decoration-line-through text-danger">100zł</span>
+                </h5>
+                <p class="card-text">Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis
+                    produktu, Opis produktu, Opis produktu, Opis produktu,</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="Pictures/graphics/product.jpg">
+                <h5 class="card-title">Produkt #1</h5>
+                <h5 class="card-text">79,99 zł
+                    <span class="text-decoration-line-through text-danger">100zł</span>
+                </h5>
+                <p class="card-text">Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis
+                    produktu, Opis produktu, Opis produktu, Opis produktu,</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="Pictures/graphics/product.jpg">
+                <h5 class="card-title">Produkt #1</h5>
+                <h5 class="card-text">79,99 zł
+                    <span class="text-decoration-line-through text-danger">100zł</span>
+                </h5>
+                <p class="card-text">Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis
+                    produktu, Opis produktu, Opis produktu, Opis produktu,</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="Pictures/graphics/product.jpg">
+                <h5 class="card-title">Produkt #1</h5>
+                <h5 class="card-text">79,99 zł
+                    <span class="text-decoration-line-through text-danger">100zł</span>
+                </h5>
+                <p class="card-text">Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis produktu, Opis
+                    produktu, Opis produktu, Opis produktu, Opis produktu,</p>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs justify-content-center mt-5">       <!------      Zakładki      ------>
+        <li class="nav-item">
+            <a href="#tabs-1"
+               class="nav-link active"
+               data-bs-toggle="tab">Wyprzedaż
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#tabs-2"
+               class="nav-link"
+               data-bs-toggle="tab">Oferta Świąteczna</a>
+        </li>
+        <li class="nav-item">
+            <a href="#tabs-3"
+               class="nav-link"
+               data-bs-toggle="tab">Zamówienia hurtowe</a>
+        </li>
+    </ul>
+</div>
+<div class="container">
+    <div class="tab-content">
+        <div id="tabs-1" class="tab-pane container active"><!------      Pierwsza zakładka      ------>
+            <div class="row justify-content-center text-center">
+                <div class="col-8 col-md-6 col-lg-4">
+                    <div id="carouselSale" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <!----przyciski, w pierwszym dodatkowe: klasa i aria-current--->
+                            <button class="active"
+                                    type="button"
+                                    data-bs-target="carouselSale"
+                                    data-bs-slide-to="0"
+                                    aria-current="true"
+                                    aria-label="Slide 1">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="carouselSale"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="carouselSale"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">                <!--- Pierwsza karuzela   --->
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <img class="card-img" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First item</h5>
+                                        <p>Opis pierwszego elementu,Opis pierwszego elementu,Opis pierwszego elementu,Opis
+                                            pierwszego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="card-img" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second item</h5>
+                                        <p>Opis drugiego elementu, Opis drugiego elementu, Opis drugiego elementu, Opis
+                                            drugiego elementu, </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="d-inline-block" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third item</h5>
+                                        <p>Opis trzeciego elementu,Opis trzeciego elementu,Opis trzeciego elementu,Opis
+                                            trzeciego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselSale"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselSale"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">następny</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 d-flex align-items-center mt-1"> <!--- Pierwsza zakładka, Sidebar   --->
+                    <h4>Opis pierwszej zakładki, Opis pierwszej zakładki, Opis pierwszej zakładki, Opis pierwszej zakładki, Opis pierwszej zakładki, Opis pierwszej zakładki,  </h4>
+                </div>
+            </div>
+        </div>
+        <div id="tabs-2" class="tab-pane container fade"><!------      Druga zakładka      ------>
+            <div class="row justify-content-center text-center">
+                <div class="col-8 col-md-6 col-lg-4">
+                    <div id="carouselEvent" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button class="active"
+                                    type="button"
+                                    data-bs-target="#carouselEvent"
+                                    data-bs-slide-to="0"
+                                    aria-current="true"
+                                    aria-label="Slide 1">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselEvent"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselEvent"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First item</h5>
+                                        <p>Opis pierwszego elementu,Opis pierwszego elementu,Opis pierwszego elementu,Opis
+                                            pierwszego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second item</h5>
+                                        <p>Opis drugiego elementu, Opis drugiego elementu, Opis drugiego elementu, Opis
+                                            drugiego elementu, </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third item</h5>
+                                        <p>Opis trzeciego elementu,Opis trzeciego elementu,Opis trzeciego elementu,Opis
+                                            trzeciego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselEvent"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselEvent"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 d-flex align-items-center mt-1">
+                    <h4 class="">Opis drugiej zakładki, Opis drugiej zakładki, Opis drugiej zakładki, Opis drugiej zakładki, Opis drugiej zakładki, Opis drugiej zakładki</h4>
+                </div>
+            </div>
+        </div>
+        <div id="tabs-3" class="tab-pane container fade"> <!------      Trzecia zakładka      ------>
+            <div class="row justify-content-center text-center">
+                <div class="col-8 col-md-6 col-lg-4">
+                    <div id="carouselWholesale" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselWholesale"
+                                    data-bs-slide-to="0"
+                                    aria-label="Slajd 1"
+                                    class="active"
+                                    aria-current="true">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselWholesale"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slajd 2">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselWholesale"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slajd 3">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>First item</h5>
+                                        <p>Opis pierwszego elementu,Opis pierwszego elementu,Opis pierwszego elementu,Opis
+                                            pierwszego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second item</h5>
+                                        <p>Opis drugiego elementu, Opis drugiego elementu, Opis drugiego elementu, Opis
+                                            drugiego elementu, </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                    <img class="" src="Pictures/graphics/sale.jpg">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third item</h5>
+                                        <p>Opis trzeciego elementu,Opis trzeciego elementu,Opis trzeciego elementu,Opis
+                                            trzeciego elementu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselWholesale"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselWholesale"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 d-flex align-items-center mt-1">
+                    <h4 class="">Opis trzeciej zakładki, Opis trzeciej zakładki, Opis trzeciej zakładki, Opis trzeciej zakładki, Opis trzeciej zakładki, Opis trzeciej zakładki </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 text-center"> <!------   Formularz kontaktowy   ------>
+    <div class="row mt-3">
+        <div class="col-12 bg-light">
+            <h3> Tytuł opisu działu</h3>
+            <p>Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu,
+                Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu, Opis działu,
+                Opis działu, Opis działu, Opis działu, Opis działu</p>
+        </div>
+    </div>
+    <form class="w-form mt-3 border border-3 rounded-5 d-inline-block">
+        <div class="form-group m-3">
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email"
+                   name="email"
+                   class="form-control"
+                   id="emailInput"
+                   placeholder="Wpisz swój adres email">
+        </div>
+        <div class="form-group m-3">
+            <label for="productSelect" class="form-label">Produkt</label>
+            <select name="produkt" class="form-control" id="productSelect">
+                <option value="brelok" selected>brelok</option>
+                <option value="świeca">świeca</option>
+                <option value="łapacz-snow">łapacz snów</option>
+                <option value="zasłona">zasłona</option>
+                <option value="hamak">hamak</option>
+                <option value="inne">inny produkt</option>
+            </select>
+        </div>
+        <div class="form-group m-3">
+            <label for="colorInput" class="form-label">Wybierz dominujący kolor produktu</label>
+            <input type="color"
+                   class="form-control
+                   form-control-color"
+                   id="colorInput"
+                   value="#EFBCAA"
+                   title="wybierz kolor">
+        </div>
+        <div class="form-group m-3">
+            <label for="rangePrice" class="form-label">Zakres cenowy</label>
+            <input type="range" class="form-range" id="rangePrice" min="0" max="1000" value="50">
+        </div>
+        <div class="form-group m-3">
+            <p class="">Przykładowe zdjęcie</p>
+            <div class="form-file">
+                <input type="file" class="form-file-input" id="fileInput">
+                <label for="fileInput" class="form-file-label">
+                    <span class="form-file-text">Wybierz Plik</span>
+                    <span class="form-file-button">Wybierz</span>
+                </label>
+            </div>
+        </div>
+        <div class="form-check m-3">
+            <input type="checkbox"
+                   name="regulaminAgree"
+                   class="form-check-input"
+                   id="regulaminAgreeInput">
+            <label for="regulaminAgreeInput" class="form-check-label">
+                Wyrażam zgodę na <a href="#">regulamin</a>
+            </label>
+        </div>
+        <button class="btn btn-primary mb-3">Wyślij</button>
+    </form>
+</div>
+<br><br><br><br>
+<footer class="text-light bg-dark mt-3 text-center" id="footer">
+    <div class="dropdown dropup p-3">
+        <button type="button"
+                class="btn btn-secondary dropdown-toggle"
+                id="authors"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+            Autorzy grafik
+        </button>
+        <ul class="dropdown-menu p-3" aria-labelledby="authors">
+            <li><p>Zdjęcie dodane przez Anete Lusina: <a href="https://www.pexels.com/pl-pl/zdjecie/dzianinowy-kawalek-przy-magazynku-z-instrukcja-4792066/">Link do strony</a> </p></li>
+            <li><p>Zdjęcie dodane przez Jakub Pabis: <a href="https://www.pexels.com/pl-pl/zdjecie/drewno-ludzie-sztuka-niebieski-10464182/">Link do strony</a> </p></li>
+            <li><p>Zdjęcie dodane przez Лена Силантьева: <a href="https://www.pexels.com/pl-pl/zdjecie/drewno-sypialnia-dom-stol-10964052/">Link do strony</a> </p></li>
+            <li><p>Obraz autorstwa <a href="https://pl.freepik.com/darmowe-zdjecie/uklad-makramy-z-miejscem-na-kopie_17663826.htm#page=2&query=macrame&position=37&from_view=search&track=sph">Freepik</a></p></li>
+        </ul>
+    </div>
+    <div class="container p-3">
+        2022© Inform. Wszelkie prawa zastrzeżone.
+    </div>
+</footer>
+</body>
+</html>
