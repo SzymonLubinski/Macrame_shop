@@ -1,3 +1,10 @@
 # macrame_shop
+This is my handicraft shop website
 
-link:https://szymonlubinski.github.io/macrame_shop/
+# Technologies
+To create this website I used:
+- HTML
+- Bootsrap
+
+# link
+https://szymonlubinski.github.io/macrame_shop/
